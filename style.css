@@ -1,0 +1,119 @@
+body {
+  background-color: #ff7f50;
+}
+
+p {
+  font-family: FuturaFuturisC, sans-serif;
+  font-size: large;
+  color: #776460;
+}
+
+h1 {
+  font-family: FuturaFuturisC, sans-serif;
+  color: #232b2b;
+}
+
+h5 {
+  font-family: FuturaFuturisC, sans-serif;
+  color: #232b2b;
+}
+
+a {
+  font-family: FuturaFuturisC, sans-serif;
+  text-decoration: none;
+  color: #232b2b;
+  transition: 0.2s;
+}
+
+.card {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  max-width: 850px;
+  max-height: 200px;
+}
+
+.card-title {
+  font-size: x-large;
+}
+
+.card-text {
+  font-size: large;
+}
+
+.navBar {
+  background-color: #232b2b;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.contentBar {
+  background-color: #f8f8ff;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.navButton {
+  font-size: 32px;
+  font-family: FuturaFuturisC, sans-serif;
+  color: #ff7f50;
+}
+
+.navButton:hover {
+  font-size: 32px;
+  font-family: FuturaFuturisC, sans-serif;
+  color: #f8f8ff;
+}
+
+.navButtonShown {
+  font-size: 32px;
+  background-color: #ff7f50;
+  font-family: FuturaFuturisC, sans-serif;
+  color: #232b2b;
+}
+
+.navButtonShown:hover {
+  font-size: 32px;
+  background-color: #ff7f50;
+  font-family: FuturaFuturisC, sans-serif;
+  color: #f8f8ff;
+}
+
+.imgLeftCard {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.imgRightCard {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.outerLink {
+  font-family: FuturaFuturisC, sans-serif;
+  color: #776460;
+}
+
+.outerLink:hover {
+  font-family: FuturaFuturisC, sans-serif;
+  color: #232b2b;
+  transition: 0.2s;
+}
+
+th {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 3px;
+  padding-right: 20px;
+  font-family: FuturaFuturisC, sans-serif;
+  text-align: left;
+}
+
+td {
+  color: #776460;
+  font-size: 20px;
+  padding: 3px;
+  padding-left: 20px;
+  font-family: FuturaFuturisC, sans-serif;
+}

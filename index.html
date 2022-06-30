@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Resume Website</title>
+    <title>My Resume</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,7 +16,108 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body></body>
+  <body>
+    <!--Navbar-->
+    <div class="navBar d-flex justify-content-evenly m-5 mb-0 p-4">
+      <div class="hstack gap-5">
+        <span
+          ><a
+            class="navButtonShown border-0 rounded-3 py-1 px-3 p-3"
+            href="index.html"
+          >
+            Home
+          </a></span
+        >
+        <span
+          ><a class="navButton border-0 rounded-3 py-1 px-3" href="exp.html">
+            Experience
+          </a></span
+        >
+        <span
+          ><a
+            class="navButton border-0 rounded-3 py-1 px-3"
+            href="contacts.html"
+          >
+            Contacts
+          </a></span
+        >
+      </div>
+    </div>
+
+    <!--Content-->
+    <div class="contentBar mx-5 py-4">
+      <div class="m-4 mt-5 d-flex justify-content-center">
+        <!--Introduction-->
+        <img
+          src="https://lh3.googleusercontent.com/a-/AOh14GgdOw4wUZKZhVlBGUKogk_Y7Z5YV0Q6CMMc1Yms=s360-p-rw-no"
+          width="250px"
+          height="250px"
+          style="object-fit: cover"
+          class="rounded-circle mx-4 my-auto"
+        />
+        <div style="height: 250px; max-width: 450px" class="mx-4 mb-3 p-2">
+          <h1>Thanapat Somsit</h1>
+          <hr />
+          <p>
+            Hi! My name is Thanapat Somsit. Everybody calls me Oak. I am an
+            undergraduate at Chiang Mai University studying in Computer
+            Engineering. I am interested in Networking, Web development, and
+            Computer architecture. <br>
+            Also, I can play the piano and I mostly play classical.
+          </p>
+        </div>
+      </div>
+
+
+      <div
+        style="align-content: center"
+        class="mx-4 my-4 vstack d-flex justify-content-center"
+      >
+        <div class="m-3 mt-5">
+          <h1 style="text-align: center">SKILLS AND HOBBIES</h1>
+          <hr />
+        </div>
+
+        <!--Cards-->
+        <div style="max-height: 200px;" class="card mx-auto my-5 hstack d-flex justify-content-start">
+          <img style="margin: 20px;" src="@resources/c++.png" class="imgLeftCard img-fluid" width="160" height="160">
+          <div class="card-body">
+            <h5 class="card-title">C and C++ Programming</h5>
+              <hr>
+              <p class="card-text">The first coding language I have ever studied. It is the language which I am most comfortable with and I have lots of experience with it.</p>
+          </div>
+        </div>
+
+        <div style="max-height: 200px;" class="card mx-auto my-5 hstack d-flex justify-content-end">
+          <div class="card-body">
+            <h5 class="card-title">Python Programming</h5>
+              <hr>
+              <p class="card-text">Python is another coding language I am comfortable with. I also have background in basic libraries, such as, Numpy, Scipy, Matplotlib, and Pandas</p>
+          </div>
+          <img style="margin: 20px;" src="@resources/python.png" class="imgRightCard img-fluid" width="160" height="160">
+        </div>
+
+        <div style="max-height: 200px;" class="card mx-auto my-5 hstack d-flex justify-content-start">
+          <img src="@resources/Rainmeter.png" class="imgLeftCard img-fluid" width="200" height="200">
+          <div class="card-body">
+            <h5 class="card-title">Rainmeter Skins Design</h5>
+              <hr>
+              <p class="card-text">With Rainmeter, I design skins to be customized and displayed on desktop, anything from hardware usage meters to fully functional audio visualizers.</p>
+          </div>
+        </div>
+
+        <div style="max-height: 200px;" class="card mx-auto my-5 hstack d-flex justify-content-end">
+          <div class="card-body">
+            <h5 class="card-title">Piano Performance</h5>
+              <hr>
+              <p class="card-text">So I can manage to press buttons on keyboards. What a shocker... I also obtained qualifications for my piano skill from Trinity College of Music</p>
+          </div>
+          <img src="@resources/pianist.jpg" class="imgRightCard img-fluid" width="200" height="200">
+        </div>
+    </div>
+  </body>
 </html>

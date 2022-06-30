@@ -19,5 +19,71 @@
 
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!--Navbar-->
+    <div class="navBar d-flex justify-content-evenly m-5 mb-0 p-4">
+      <div class="hstack gap-5">
+        <span
+          ><a class="navButton rounded-3 py-1 px-3 p-3" href="index.html">
+            Home
+          </a></span
+        >
+        <span
+          ><a
+            class="navButtonShown border-0 rounded-3 py-1 px-3"
+            href="exp.html"
+          >
+            Experience
+          </a></span
+        >
+        <span
+          ><a
+            class="navButton border-0 rounded-3 py-1 px-3"
+            href="contacts.html"
+          >
+            Contacts
+          </a></span
+        >
+      </div>
+    </div>
+
+    <!--Content-->
+    <div class="contentBar m-5 mt-0 py-4">
+        <div
+          style="align-content: center"
+          class="mx-4 my-4 vstack d-flex justify-content-center"
+        >
+          <div class="m-3">
+            <h1 style="text-align: center">EXPERIENCES</h1>
+            <hr />
+          </div>
+
+          <div class="card mx-auto my-5 hstack d-flex justify-content-start">
+            <img src="@resources/council.jpg" class="imgRightCard img-fluid" width="200" height="200">
+            <div class="card-body">
+                <h5 class="card-title">Student Council</h5>
+                <hr>
+                <p class="card-text">During highschool, I was a member of Chiang Mai University Demonstration School Council. Our job was to cooperate and arrange all activities for other students.</p>
+              </div>
+          </div>
+  
+          <div class="card mx-auto my-5 hstack d-flex justify-content-end">
+            <div class="card-body">
+              <h5 class="card-title">Norton</h5>
+              <hr>
+              <p class="card-text">Norton is a time management assistant program made with C++ that I was the project manager of.</p>
+            </div>
+            <img src="@resources/Norton.png" class="imgRightCard img-fluid" width="200" height="200">
+          </div>
+
+          <div class="card mx-auto my-5 hstack d-flex justify-content-start">
+            <img src="@resources/A Long Night.jpg" class="imgLeftCard img-fluid" width="200" height="200">
+            <div class="card-body">
+              <a class="card-title" href="https://scratch.mit.edu/projects/563471362/fullscreen/" target="_blank">A Long Night</a>
+              <hr>
+              <p class="card-text">A platformer game made from Scratch as a group project to lay down the foundation of basic programming skills for the students. You should try it out!</p>
+            </div>
+          </div>
+      </div>
+  </body>
 </html>

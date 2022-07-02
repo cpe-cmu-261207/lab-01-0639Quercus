@@ -22,8 +22,8 @@
   </head>
   <body>
     <!--Navbar-->
-    <div class="navBar d-flex justify-content-evenly m-5 mb-0 p-4">
-      <div class="hstack gap-5">
+    <div class="navBar d-flex justify-content-evenly m-5 mb-0 p-5">
+      <div class="hstack gap-5 d-none d-sm-flex">
         <span
           ><a class="navButton rounded-3 py-1 px-3 p-3" href="index.html">
             Home
@@ -46,6 +46,15 @@
           </a></span
         >
       </div>
+      <div class="hstack gap-5 d-block d-sm-none">
+        <span
+          ><a
+            class="navButtonShown border-0 rounded-3 py-1 px-3 p-3"
+            href="exp.html"
+          >
+          Experience
+          </a></span>
+      </div>
     </div>
 
     <!--Content-->
@@ -61,7 +70,7 @@
 
           <div class="card mx-auto my-5 hstack d-flex justify-content-start">
             <img src="@resources/council.jpg" class="imgLeftCard img-fluid" width="200" height="200">
-            <div class="card-body">
+            <div class="card-body d-none d-md-flex vstack my-auto">
                 <h5 class="card-title">Student Council</h5>
                 <hr>
                 <p class="card-text">During highschool, I was a member of Chiang Mai University Demonstration School Council. Our job was to cooperate and arrange all activities for other students.</p>
@@ -69,17 +78,17 @@
           </div>
   
           <div class="card mx-auto my-5 hstack d-flex justify-content-end">
-            <div class="card-body">
-              <h5 class="card-title">Norton</h5>
+            <div class="card-body d-none d-md-flex vstack my-auto">
+              <h5 class="card-title">Basic Programming Project</h5>
               <hr>
-              <p class="card-text">Norton is a time management assistant program made with C++ that I was the project manager of.</p>
+              <p class="card-text">This is a time management assistant program made with C++ that I was the project manager of.</p>
             </div>
             <img src="@resources/Norton.png" class="imgRightCard img-fluid" width="200" height="200">
           </div>
 
           <div class="card mx-auto my-5 hstack d-flex justify-content-start">
             <img src="@resources/A Long Night.jpg" class="imgLeftCard img-fluid" width="200" height="200">
-            <div class="card-body">
+            <div class="card-body d-none d-md-flex vstack my-auto">
               <a class="card-title" href="https://scratch.mit.edu/projects/563471362/fullscreen/" target="_blank">A Long Night</a>
               <hr>
               <p class="card-text">A platformer game made from Scratch as a group project to lay down the foundation of basic programming skills for the students. You should try it out!</p>

@@ -23,8 +23,8 @@
 
   <body>
     <!--Navbar-->
-    <div class="navBar d-flex justify-content-evenly m-5 mb-0 p-4">
-      <div class="hstack gap-5">
+    <div class="navBar d-flex justify-content-evenly m-5 mb-0 p-5">
+      <div class="hstack gap-5 d-none d-sm-flex">
         <span
           ><a
             class="navButtonShown border-0 rounded-3 py-1 px-3 p-3"
@@ -34,7 +34,7 @@
           </a></span
         >
         <span
-          ><a class="navButton border-0 rounded-3 py-1 px-3" href="exp.html">
+          ><a class="navButton border-0 rounded-3 py-1 px-3 d-none d-md-flex" href="exp.html">
             Experience
           </a></span
         >
@@ -47,11 +47,20 @@
           </a></span
         >
       </div>
+      <div class="hstack gap-5 d-block d-sm-none">
+        <span
+          ><a
+            class="navButtonShown border-0 rounded-3 py-1 px-3 p-3"
+            href="index.html"
+          >
+            Home
+          </a></span>
+      </div>
     </div>
 
     <!--Content-->
     <div class="contentBar m-5 mt-0 py-4">
-      <div class="m-4 mt-5 d-flex justify-content-center">
+      <div class="m-4 mt-5 d-flex justify-content-center overflow-hidden">
         <!--Introduction-->
         <img
           src="https://lh3.googleusercontent.com/a-/AOh14GgdOw4wUZKZhVlBGUKogk_Y7Z5YV0Q6CMMc1Yms=s360-p-rw-no"
@@ -74,27 +83,24 @@
       </div>
 
 
-      <div
-        style="align-content: center"
-        class="mx-4 my-4 vstack d-flex justify-content-center"
-      >
+      <div class="mx-4 my-4 vstack d-flex justify-content-center">
         <div class="m-3 mt-5">
           <h1 style="text-align: center">SKILLS AND HOBBIES</h1>
           <hr />
         </div>
 
         <!--Cards-->
-        <div style="max-height: 200px;" class="card mx-auto my-5 hstack d-flex justify-content-start">
+        <div class="card mx-auto my-5 hstack d-flex justify-content-start">
           <img style="margin: 20px;" src="@resources/c++.png" class="imgLeftCard img-fluid" width="160" height="160">
-          <div class="card-body">
+          <div class="card-body d-none d-md-flex vstack my-auto">
             <h5 class="card-title">C and C++ Programming</h5>
               <hr>
               <p class="card-text">The first coding language I have ever studied. It is the language which I am most comfortable with and I have lots of experience with it.</p>
           </div>
         </div>
 
-        <div style="max-height: 200px;" class="card mx-auto my-5 hstack d-flex justify-content-end">
-          <div class="card-body">
+        <div class="card mx-auto my-5 hstack d-flex justify-content-end">
+          <div class="card-body d-none d-md-flex vstack my-auto">
             <h5 class="card-title">Python Programming</h5>
               <hr>
               <p class="card-text">Python is another coding language I am comfortable with. I also have background in basic libraries, such as, Numpy, Scipy, Matplotlib, and Pandas</p>
@@ -102,17 +108,17 @@
           <img style="margin: 20px;" src="@resources/python.png" class="imgRightCard img-fluid" width="160" height="160">
         </div>
 
-        <div style="max-height: 200px;" class="card mx-auto my-5 hstack d-flex justify-content-start">
+        <div class="card mx-auto my-5 hstack d-flex justify-content-start">
           <img src="@resources/Rainmeter.png" class="imgLeftCard img-fluid" width="200" height="200">
-          <div class="card-body">
+          <div class="card-body d-none d-md-flex vstack my-auto">
             <h5 class="card-title">Rainmeter Skins Design</h5>
               <hr>
               <p class="card-text">With Rainmeter, I design skins to be customized and displayed on desktop, anything from hardware usage meters to fully functional audio visualizers.</p>
           </div>
         </div>
 
-        <div style="max-height: 200px;" class="card mx-auto my-5 hstack d-flex justify-content-end">
-          <div class="card-body">
+        <div class="card mx-auto my-5 hstack d-flex justify-content-end">
+          <div class="card-body d-none d-md-flex vstack my-auto">
             <h5 class="card-title">Piano Performance</h5>
               <hr>
               <p class="card-text">So I can manage to know how to press buttons. What a shocker... I also obtained qualifications for my piano skill from Trinity College of Music</p>
